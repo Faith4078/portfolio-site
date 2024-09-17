@@ -39,7 +39,7 @@ const Footer = () => {
           {socialMedia.map((profile) => {
             const { id, img, link } = profile;
             return (
-              <a href={link} target="_blank">
+              <a href={link} target="_blank" key={link}>
                 <div
                   key={id}
                   className="size-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-50 bg-black-200 rounded-lg border border-black-300"
