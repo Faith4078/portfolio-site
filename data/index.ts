@@ -17,7 +17,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Showing your ideas to the world is my passion. Let's build something great together!",
+    title: "Showing your ideas to the world is my passion. ",
     description: '',
     className: 'lg:col-span-2 min-h-64 md:col-span-3 md:row-span-2',
     imgClassName: '',
