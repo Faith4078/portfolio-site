@@ -128,6 +128,6 @@ export const socialMedia = [
   {
     id: 2,
     img: '/link.svg',
-    link: 'https://www.linkedin.com/in/oyewole-faith-oluwadamilare-1162a3228/',
+    link: 'www.linkedin.com/in/faith-oyewole-1162a3228',
   },
 ];
