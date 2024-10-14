@@ -23,12 +23,16 @@ const RecentProjects = () => {
                   <Image
                     src={'/bg.png'}
                     alt={'bg-img'}
+                    width={570}
+                    height={570}
                     className="w-full h-full"
                   />
                 </div>
                 <Image
                   src={img}
                   alt={title}
+                  width={570}
+                  height={570}
                   className="z-10 absolute bottom-0"
                 />
               </div>
@@ -46,7 +50,13 @@ const RecentProjects = () => {
                       className="border border-white/[0.2] rounded-full bg-black lg:size-10 lg:h-10 size-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <Image src={icon} alt={icon} className="p-2 " />
+                      <Image
+                        src={icon}
+                        alt={icon}
+                        className="p-2 "
+                        width={30}
+                        height={30}
+                      />
                     </div>
                   ))}
                 </div>
