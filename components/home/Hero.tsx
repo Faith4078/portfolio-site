@@ -36,7 +36,7 @@ const Hero = () => {
             duration={0.5}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Oyewole Faith Oluwdamilare,a software engineer based in
+            Hi, I&apos;m Faith Oluwadamilare Oyewole,a software engineer based in
             Nigeria.
           </p>
           <a
