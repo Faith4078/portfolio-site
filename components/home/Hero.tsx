@@ -36,12 +36,13 @@ const Hero = () => {
             duration={0.5}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Faith Oluwadamilare Oyewole,a software engineer based
-            in Nigeria.
+            {
+              "Hi, I'm Faith Oluwadamilare Oyewole,a software engineer based in Nigeria."
+            }
           </p>
           <a
-            href="/faith_oluwdamilare_oyewole_resume.pdf"
-            download={'/faith_oluwdamilare_oyewole__resume.pdf'}
+            href="/Faith_Oyewole_Resume.pdf"
+            download={'/Faith_Oyewole_Resume.pdf'}
           >
             <MagicButton
               title="My Resume"

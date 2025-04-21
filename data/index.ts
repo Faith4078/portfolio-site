@@ -17,7 +17,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Showing your ideas to the world is my passion. ",
+    title: 'Showing your ideas to the world is my passion. ',
     description: '',
     className: 'lg:col-span-2 min-h-64 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -71,16 +71,16 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: 'Knowledgeden',
-    des: 'An course marketplace similar to udemy,built with wordpress and elementor',
-    img: '/knowledgeden-bg.png',
-    iconLists: ['/wordpress-icon.svg'],
-    link: 'https://knowledgeden.infinityfreeapp.com/',
+    title: 'Recruiteek-Ai',
+    des: 'Ai powered interview app that helps job seekers prepare for job interviews',
+    img: '/recruiteek.png',
+    iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
+    link: 'https://recruiteek-ai.vercel.app/',
   },
   {
     id: 2,
     title: 'Haven Bikes',
-    des: 'A bike ecommerce app with a payment system and a user-friendly interface.',
+    des: 'An ecommerce app for selling motor bikes with  payment gateway and a user-friendly interface.',
     img: '/haven-bikes.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/c.svg', '/prisma-2.svg'],
     link: 'https://haven-bikes.vercel.app/',
@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 3,
     title: 'Luxury Accord',
-    des: 'A furniture ecommerce app with a payment system and a user-friendly interface.',
+    des: 'A furniture ecommerce app with  payment gateway and a user-friendly interface.',
     img: '/luxury-accord.png',
     iconLists: [
       '/re.svg',
@@ -99,14 +99,6 @@ export const projects = [
     ],
     link: 'https://luxury-accord.vercel.app/',
   },
-  // {
-  //   id: 4,
-  //   title: 'Live Docs',
-  //   des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-  //   img: '/p4.svg',
-  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-  //   link: '/ui.apple.com',
-  // },
 ];
 
 export const workExperience = [
@@ -123,7 +115,7 @@ export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
-    link: 'https://github.com/GeniusObi',
+    link: 'https://github.com/Faith4078',
   },
   {
     id: 2,
