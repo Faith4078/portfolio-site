@@ -1,18 +1,17 @@
 'use client';
 import { useState } from 'react';
 import { IoCopyOutline } from 'react-icons/io5';
-
-// Also install this npm i --save-dev @types/react-lottie
-import Lottie from 'react-lottie';
-
+import dynamic from 'next/dynamic';
 import { cn } from '@/lib/utils';
-
 import { BackgroundGradientAnimation } from './GradientBg';
-
 import animationData from '@/data/confetti.json';
 import MagicButton from './MagicButton';
 import { GlobeDemo } from './GridGlobe';
 import Image from 'next/image';
+
+// Dynamically import Lottie with SSR disabled
+const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
+
 export const BentoGrid = ({
   className,
   children,
@@ -38,7 +37,6 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -53,7 +51,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ['Reactjs', 'Nextjs',"WordPress"];
+  const leftLists = ['Reactjs', 'Nextjs', 'WordPress'];
   const rightLists = ['Typescript', 'Firebase', 'Prisma'];
 
   const [copied, setCopied] = useState(false);
@@ -69,8 +67,10 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     const text = 'devobi97@gmail.com';
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+    }
   };
 
   return (
@@ -146,7 +146,7 @@ export const BentoGridItem = ({
                 {leftLists.slice(0, 3).map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4  lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4  lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 \
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -157,7 +157,7 @@ export const BentoGridItem = ({
                 {rightLists.slice(0, 3).map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 \
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
