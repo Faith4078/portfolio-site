@@ -72,7 +72,7 @@ export const projects = [
   {
     id: 1,
     title: 'Recruiteek-Ai',
-    des: 'Ai powered interview app that helps job seekers prepare for job interviews',
+    des: 'Ai powered Interview Prep App built with Next.js, Typescript ,Vapi and Firebase',
     img: '/recruiteek.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
     link: 'https://recruiteek-ai.vercel.app/',
