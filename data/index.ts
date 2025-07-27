@@ -77,14 +77,14 @@ export const projects = [
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
     link: 'https://recruiteek-ai.vercel.app/',
   },
-  // {
-  //   id: 2,
-  //   title: 'Haven Bikes',
-  //   des: 'An ecommerce app built with Next.js and Supabase for selling motor bikes with  payment gateway and a user-friendly interface.',
-  //   img: '/haven-bikes.png',
-  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/c.svg', '/prisma-2.svg'],
-  //   link: 'https://haven-bikes.vercel.app/',
-  // },
+  {
+    id: 2,
+    title: 'Haven Bikes',
+    des: 'An ecommerce app built with Next.js and Supabase for selling motor bikes with  payment gateway and a user-friendly interface.',
+    img: '/haven-bikes.png',
+    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/c.svg', '/prisma-2.svg'],
+    link: 'https://haven-bikes.vercel.app/',
+  },
   {
     id: 3,
     title: 'Luxury Accord',
