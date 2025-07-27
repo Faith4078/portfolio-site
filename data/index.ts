@@ -99,6 +99,14 @@ export const projects = [
     ],
     link: 'https://luxury-accord.vercel.app/',
   },
+  {
+    id: 4,
+    title: 'FlexiPay',
+    des: 'Landing page of a fintech application',
+    img: '/flexi.png',
+    iconLists: ['/webflow.svg'],
+    link: 'https://flexi-pay.webflow.io/ ',
+  },
 ];
 
 export const workExperience = [

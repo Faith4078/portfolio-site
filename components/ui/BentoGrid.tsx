@@ -10,7 +10,7 @@ import { GlobeDemo } from './GridGlobe';
 import Image from 'next/image';
 
 // Dynamically import Lottie with SSR disabled
-const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
 export const BentoGrid = ({
   className,
@@ -55,15 +55,6 @@ export const BentoGridItem = ({
   const rightLists = ['Typescript', 'Firebase', 'Prisma'];
 
   const [copied, setCopied] = useState(false);
-
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
-  };
 
   const handleCopy = () => {
     const text = 'devobi97@gmail.com';
@@ -174,7 +165,12 @@ export const BentoGridItem = ({
                 }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                  style={{ width: 400, height: 200 }}
+                />
               </div>
 
               <MagicButton
