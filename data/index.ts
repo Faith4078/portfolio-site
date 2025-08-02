@@ -72,7 +72,7 @@ export const projects = [
   {
     id: 1,
     title: 'Recruiteek-Ai',
-    des: 'Ai powered interview app that helps job seekers prepare for job interviews',
+    des: 'Ai powered Interview Prep App built with Next.js, Typescript ,Vapi and Firebase',
     img: '/recruiteek.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
     link: 'https://recruiteek-ai.vercel.app/',
@@ -80,13 +80,21 @@ export const projects = [
   // {
   //   id: 2,
   //   title: 'Haven Bikes',
-  //   des: 'An ecommerce app for selling motor bikes with  payment gateway and a user-friendly interface.',
+  //   des: 'An ecommerce app built with Next.js and Supabase for selling motor bikes with  payment gateway and a user-friendly interface.',
   //   img: '/haven-bikes.png',
   //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/c.svg', '/prisma-2.svg'],
   //   link: 'https://haven-bikes.vercel.app/',
   // },
   {
     id: 3,
+    title: 'FlexiPay',
+    des: 'Landing page of a fintech application',
+    img: '/flexi.png',
+    iconLists: ['/webflow.svg'],
+    link: 'https://flexi-pay.webflow.io/ ',
+  },
+  {
+    id: 4,
     title: 'Luxury Accord',
     des: 'A furniture ecommerce app with  payment gateway and a user-friendly interface.',
     img: '/luxury-accord.png',
@@ -98,14 +106,6 @@ export const projects = [
       'nodejs-logo.svg',
     ],
     link: 'https://luxury-accord.vercel.app/',
-  },
-  {
-    id: 4,
-    title: 'FlexiPay',
-    des: 'Landing page of a fintech application',
-    img: '/flexi.png',
-    iconLists: ['/webflow.svg'],
-    link: 'https://flexi-pay.webflow.io/ ',
   },
 ];
 
