@@ -25,7 +25,7 @@ const RecentProjects = () => {
                     alt={'bg-img'}
                     width={570}
                     height={570}
-                    className="w-full h-full"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <Image
@@ -33,7 +33,7 @@ const RecentProjects = () => {
                   alt={title}
                   width={570}
                   height={570}
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 object-contain"
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

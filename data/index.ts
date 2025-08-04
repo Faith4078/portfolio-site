@@ -95,6 +95,14 @@ export const projects = [
   },
   {
     id: 4,
+    title: 'Blitzchain',
+    des: 'Landing Page Design Of A Crypto App',
+    img: '/Blitzchain.webp',
+    iconLists: ['/webflow.svg'],
+    link: 'https://blitzchain.infinityfreeapp.com/',
+  },
+  {
+    id: 5,
     title: 'Luxury Accord',
     des: 'A furniture ecommerce app with  payment gateway and a user-friendly interface.',
     img: '/luxury-accord.png',
