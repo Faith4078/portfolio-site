@@ -41,8 +41,8 @@ const Hero = () => {
             }
           </p>
           <a
-            href="/Faith_Oyewole_Resume.pdf"
-            download={'/Faith_Oyewole_Resume.pdf'}
+            href="/Faith Oyewole - Senior Frontend Engineer Resume.pdf"
+            download={'/Faith Oyewole - Senior Frontend Engineer Resume.pdf'}
           >
             <MagicButton
               title="My Resume"
