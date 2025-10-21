@@ -87,12 +87,13 @@ export const projects = [
   // },
   {
     id: 3,
-    title: 'FlexiPay',
-    des: 'Landing page of a fintech application',
-    img: '/flexi.png',
+    title: 'urbanathletics',
+    des: 'Website for urbanathletics.Built with Shopify',
+    img: '/urban.png',
     iconLists: ['/webflow.svg'],
-    link: 'https://flexi-pay.webflow.io/ ',
+    link: 'https://www.urbanathletics.com.ph/',
   },
+
   {
     id: 4,
     title: 'Blitzchain',
@@ -127,7 +128,7 @@ export const projects = [
   {
     id: 7,
     title: 'Black Chamber Of Arizona',
-    des: 'Website for Black chambers of arizona',
+    des: 'Website for Black chambers of arizona.Built With Wordpress',
     img: '/BlackChamber-Website.png',
     iconLists: ['/webflow.svg'],
     link: 'https://blackchamberaz.org/',
