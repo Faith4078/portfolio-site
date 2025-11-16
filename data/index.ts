@@ -85,14 +85,14 @@ export const projects = [
   //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/c.svg', '/prisma-2.svg'],
   //   link: 'https://haven-bikes.vercel.app/',
   // },
-  {
-    id: 3,
-    title: 'urbanathletics',
-    des: 'Website for urbanathletics.Built with Shopify',
-    img: '/urban.png',
-    iconLists: ['/webflow.svg'],
-    link: 'https://www.urbanathletics.com.ph/',
-  },
+  // {
+  //   id: 3,
+  //   title: 'urbanathletics',
+  //   des: 'Website for urbanathletics.Built with Shopify',
+  //   img: '/urban.png',
+  //   iconLists: ['/webflow.svg'],
+  //   link: 'https://www.urbanathletics.com.ph/',
+  // },
 
   {
     id: 4,
