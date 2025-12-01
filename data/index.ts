@@ -125,14 +125,7 @@ export const projects = [
     link: 'https://horizon-bank.infinityfreeapp.com',
   },
 
-  {
-    id: 7,
-    title: 'Black Chamber Of Arizona',
-    des: 'Website for Black chambers of arizona.Built With Wordpress',
-    img: '/BlackChamber-Website.png',
-    iconLists: ['/webflow.svg'],
-    link: 'https://blackchamberaz.org/',
-  },
+
 ];
 
 export const workExperience = [
