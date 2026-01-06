@@ -71,22 +71,31 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: 'Raymond Chami Associates',
+    des: 'Landing page design for raymond chami associates architectural design studio',
+    img: '/raymond-chami.png',
+    iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
+    link: 'https://raymond-chami-associates.vercel.app/',
+  },
+  {
+    id: 2,
+    title: 'Black Chamber Of Arizona',
+    des: 'Website for Black chambers of arizona.Built With Wordpress',
+    img: '/BlackChamber-Website.png',
+    iconLists: ['/webflow.svg'],
+    link: 'https://blackchamberaz.org/',
+  },
+  {
+    id: 3,
     title: 'Recruiteek-Ai',
     des: 'Ai powered Interview Prep App built with Next.js, Typescript ,Vapi and Firebase',
     img: '/recruiteek.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
     link: 'https://recruiteek-ai.vercel.app/',
   },
-  // {
-  //   id: 2,
-  //   title: 'Haven Bikes',
-  //   des: 'An ecommerce app built with Next.js and Supabase for selling motor bikes with  payment gateway and a user-friendly interface.',
-  //   img: '/haven-bikes.png',
-  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/c.svg', '/prisma-2.svg'],
-  //   link: 'https://haven-bikes.vercel.app/',
-  // },
+
   {
-    id: 3,
+    id: 4,
     title: 'urbanathletics',
     des: 'Website for urbanathletics.Built with Shopify',
     img: '/urban.png',
@@ -95,27 +104,14 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Blitzchain',
     des: 'Landing Page Design Of A Crypto App',
     img: '/Blitzchain.webp',
     iconLists: ['/webflow.svg'],
     link: 'https://blitzchain.infinityfreeapp.com/',
   },
-  // {
-  //   id: 5,
-  //   title: 'Luxury Accord',
-  //   des: 'A furniture ecommerce app with  payment gateway and a user-friendly interface.',
-  //   img: '/luxury-accord.png',
-  //   iconLists: [
-  //     '/re.svg',
-  //     '/tail.svg',
-  //     '/c.svg',
-  //     '/airtable-svg.svg',
-  //     'nodejs-logo.svg',
-  //   ],
-  //   link: 'https://luxury-accord.vercel.app/',
-  // },
+
   {
     id: 6,
     title: 'Horizon Bank',
@@ -126,12 +122,12 @@ export const projects = [
   },
 
   {
-    id: 7,
-    title: 'Black Chamber Of Arizona',
-    des: 'Website for Black chambers of arizona.Built With Wordpress',
-    img: '/BlackChamber-Website.png',
+    id: 6,
+    title: 'Supreme Fashion Store',
+    des: ' clothing store website for supreme fashion house',
+    img: '/supreme-hero.png',
     iconLists: ['/webflow.svg'],
-    link: 'https://blackchamberaz.org/',
+    link: 'https://supreme-store.infinityfreeapp.com/',
   },
 ];
 
