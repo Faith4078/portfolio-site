@@ -77,14 +77,14 @@ export const projects = [
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
     link: 'https://raymond-chami-associates.vercel.app/',
   },
-  {
-    id: 2,
-    title: 'Black Chamber Of Arizona',
-    des: 'Website for Black chambers of arizona.Built With Wordpress',
-    img: '/BlackChamber-Website.png',
-    iconLists: ['/webflow.svg'],
-    link: 'https://blackchamberaz.org/',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Black Chamber Of Arizona',
+  //   des: 'Website for Black chambers of arizona.Built With Wordpress',
+  //   img: '/BlackChamber-Website.png',
+  //   iconLists: ['/webflow.svg'],
+  //   link: 'https://blackchamberaz.org/',
+  // },
   {
     id: 3,
     title: 'Recruiteek-Ai',
@@ -94,14 +94,14 @@ export const projects = [
     link: 'https://recruiteek-ai.vercel.app/',
   },
 
-  {
-    id: 4,
-    title: 'urbanathletics',
-    des: 'Website for urbanathletics.Built with Shopify',
-    img: '/urban.png',
-    iconLists: ['/webflow.svg'],
-    link: 'https://www.urbanathletics.com.ph/',
-  },
+  // {
+  //   id: 4,
+  //   title: 'urbanathletics',
+  //   des: 'Website for urbanathletics.Built with Shopify',
+  //   img: '/urban.png',
+  //   iconLists: ['/webflow.svg'],
+  //   link: 'https://www.urbanathletics.com.ph/',
+  // },
 
   {
     id: 5,
